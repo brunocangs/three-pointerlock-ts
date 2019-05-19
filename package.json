@@ -1,8 +1,8 @@
 {
-  "name": "three-pointerlock",
+  "name": "three-pointerlock-ts",
   "version": "0.0.2",
-  "description": "Three.js Pointer Lock Controls as common js module",
-  "main": "index.js",
+  "description": "Three.js Pointer Lock Controls as a typescript module",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +12,12 @@
     "input",
     "mouse",
     "3d",
-    "wasd"
+    "wasd",
+    "typescript",
+    "tsc",
+    "ts"
   ],
-  "author": "Javier Zapata",
+  "author": "Bruno Cangussu",
   "license": "MIT",
   "browserDependencies": {
     "three": "^0.68.0"
@@ -22,5 +25,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nkm/three-pointerlock"
+  },
+  "peerDependencies": {
+    "three": "*"
+  },
+  "devDependencies": {
+    "@types/three": "^0.103.2",
+    "nodemon": "^1.19.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "three": "^0.104.0"
   }
 }
